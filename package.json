@@ -1,4 +1,10 @@
 {
+  "name": "DoneWithIt",
+  "author": "Brendan Laney",
+  "description": "Original by Moshfegh Hamedani - revisions made by Brendan Laney",
+  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -21,5 +27,4 @@
     "@types/react-native": "~0.63.2",
     "typescript": "~4.0.0"
   },
-  "private": true
 }
