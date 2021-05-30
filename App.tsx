@@ -1,21 +1,24 @@
-import { StatusBar } from 'expo-status-bar'
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import styles from './styles'
+import Box from './Box'
+import { 
+  Text, 
+  View, 
+  StatusBar
+} from 'react-native'
 
-export default function App () {
+const boxes = new Array(10).fill(null).map((v, i) => i + 1)
+
+export default function App() {
+  const handlePress = () => console.log('You pressed or clicked on text')
+  const handleTap = () => console.log('You have pressed or clicked on an image')
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style='auto' />
+      <StatusBar hidden={false} />
+      {boxes.map(i => (
+        <Box key={i}>#{i}</Box>
+      ))}
     </View>
-  );
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-})

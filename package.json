@@ -1,5 +1,5 @@
 {
-  "name": "DoneWithIt",
+  "name": "Donewithit",
   "author": "Brendan Laney",
   "description": "Original by Moshfegh Hamedani - revisions made by Brendan Laney",
   "license": "MIT",
@@ -16,6 +16,7 @@
   "dependencies": {
     "expo": "~41.0.1",
     "expo-status-bar": "~1.0.4",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
@@ -26,5 +27,5 @@
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
     "typescript": "~4.0.0"
-  },
+  }
 }
