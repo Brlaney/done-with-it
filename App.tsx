@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles'
 import Box from './Box'
+import { useDimensions } from '@react-native-community/hooks'
 import { 
   Text, 
   View, 
