@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as PropTypes from 'prop-types'
 import { View, Text } from 'react-native'
-import styles from './styles'
+import styles from '../styles/styles'
 
 interface IProps {
   // Define any incoming component props

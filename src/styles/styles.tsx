@@ -11,6 +11,7 @@ export default StyleSheet.create({
     flexWrap: 'wrap',
     backgroundColor: 'ghostwhite',
     alignItems: 'center',
+    justifyContent: 'center',
     ...Platform.select({
       ios: { paddingTop: 20 },
       android: { paddingTop: StatusBar.currentHeight }
