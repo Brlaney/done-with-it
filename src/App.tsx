@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles/styles'
 import Box from './components/Box'
+import Header from './components/Header'
 import { 
   Text, 
   View, 
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar hidden={false} />
+      <Header />
       {boxes.map(i => (
         <Box key={i} >#{i}</Box>
       ))}

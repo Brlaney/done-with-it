@@ -9,7 +9,7 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
-    backgroundColor: 'ghostwhite',
+    backgroundColor: '#f06449',
     alignItems: 'center',
     justifyContent: 'center',
     ...Platform.select({
@@ -18,17 +18,19 @@ export default StyleSheet.create({
     })
   },
   box: {
+    elevation: 6,
     height: 100,
     width: 100,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'lightgray',
+    backgroundColor: '#fcfcfc',
     borderWidth: 1,
-    borderStyle: 'dashed',
-    borderColor: 'darkslategray',
+    borderRadius: 8,
+    borderColor: '#f1f0ea',
     margin: 10
   },
   boxText: {
+    fontSize: 18,
     color: 'darkslategray',
     fontWeight: 'bold'
   }
