@@ -1,5 +1,5 @@
 import React from 'react'
-
+import colors from '../config/colors'
 import { 
   StyleSheet, 
   Text, 
@@ -33,19 +33,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F3F3F3',
+    backgroundColor: colors.background,
     alignItems: 'center',
     justifyContent: 'center'
   },
   text: {
     margin: 20,
     textAlign: 'center',
-    color: '#3C1874',
+    color: colors.colorText,
     fontSize: 22,
     fontWeight: 'bold'
   },
-  // image: {
-  //   width: '200px',
-  //   height: '300px'
-  // }
 })

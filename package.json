@@ -1,5 +1,5 @@
 {
-  "name": "Donewithit",
+  "name": "Done-with-it",
   "author": "Brendan Laney",
   "description": "Original by Moshfegh Hamedani - revisions made by Brendan Laney",
   "license": "MIT",
@@ -14,8 +14,10 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo-google-fonts/poppins": "^0.1.0",
     "@react-native-community/hooks": "^2.6.0",
     "expo": "~41.0.1",
+    "expo-app-loading": "^1.0.3",
     "expo-status-bar": "~1.0.4",
     "prop-types": "^15.7.2",
     "react": "16.13.1",

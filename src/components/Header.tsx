@@ -1,4 +1,4 @@
-import React from 'react'
+import colors from '../../config/colors'
 import {
   StyleSheet, 
   View,
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#fcfcfc'
+    color: colors.background
   }
 })
 
